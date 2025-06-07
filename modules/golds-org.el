@@ -1,3 +1,4 @@
+;; -*- lexical-binding: t; -*-
 ;; Enable transient mark mode
 (transient-mark-mode 1)
 

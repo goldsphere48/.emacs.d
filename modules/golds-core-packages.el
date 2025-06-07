@@ -1,3 +1,4 @@
+;; -*- lexical-binding: t; -*-
 (use-package vertico
   :ensure t
   :init
@@ -26,5 +27,8 @@
 (use-package which-key
   :ensure t
   :config (which-key-mode))
+
+(use-package magit
+  :ensure t)
 
 (provide 'golds-core-packages)

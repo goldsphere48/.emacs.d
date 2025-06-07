@@ -1,3 +1,4 @@
+;; -*- lexical-binding: t; -*-
 ;; Disable annoying modes
 (menu-bar-mode -1)
 (tool-bar-mode -1)
