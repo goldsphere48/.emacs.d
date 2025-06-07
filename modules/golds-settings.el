@@ -32,8 +32,7 @@
                     :height 110)
 
 ;; Theme
-(use-package ayu-theme
-  :config (load-theme 'ayu-grey t))
+(use-package ayu-theme)
 
 ;; Mood Line
 (use-package mood-line

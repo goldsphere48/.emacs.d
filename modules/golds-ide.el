@@ -25,4 +25,10 @@
   (yas-global-mode)
   (setq lsp-headerline-breadcrumb-enable nil))
 
+(use-package cmake-mode
+  :ensure t
+  :mode ("CMakeLists\\.txt\\'" . cmake-mode)
+  :config
+  (setq cmake-tab-width 4))
+
 (provide 'golds-ide)

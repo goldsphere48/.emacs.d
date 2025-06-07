@@ -7,6 +7,7 @@
 (require 'golds-cc-mode)
 (require 'golds-evil)
 (require 'golds-ide)
+(require 'golds-org)
 
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
