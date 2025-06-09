@@ -32,4 +32,7 @@
   :config
   (setq cmake-tab-width 4))
 
+(use-package zig-mode
+  :ensure t)
+
 (provide 'golds-ide)
