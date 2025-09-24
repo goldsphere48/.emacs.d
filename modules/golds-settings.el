@@ -21,6 +21,7 @@
       make-backup-files nil
       backup-inhibited nil
       create-lockfiles nil
+      tab-width 4
       inhibit-startup-screen 't)
 
 ;; Coding system

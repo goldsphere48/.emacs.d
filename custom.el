@@ -12,8 +12,8 @@
  '(package-selected-packages
    '(ayu-theme clang-format cmake-mode company consult dap-mode
 	       evil-collection evil-commentary evil-leader flycheck
-	       helm-lsp helm-xref magit mood-line orderless projectile
-	       vertico yasnippet zig-mode))
+	       go-mode goflymake helm-lsp helm-xref magit mood-line
+	       orderless projectile vertico yasnippet zig-mode))
  '(send-mail-function 'mailclient-send-it))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

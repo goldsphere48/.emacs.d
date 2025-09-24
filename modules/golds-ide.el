@@ -30,7 +30,13 @@
   :ensure t
   :mode ("CMakeLists\\.txt\\'" . cmake-mode)
   :config
-  (setq cmake-tab-width 4))
+  (setq cmake-tab-width 4)
+  (setq indent-tabs-mode 't))
+
+(add-hook 'json-mode-hook
+	  (lambda()
+	    (make-local-variable 'js-indent-level)
+	    (setq tab-width 4)))
 
 (use-package zig-mode
   :ensure t)
