@@ -396,3 +396,6 @@ elpa/*
 transient/*
 eshell/*
 history
+debug-adapters/
+projects
+dape-breakpoints

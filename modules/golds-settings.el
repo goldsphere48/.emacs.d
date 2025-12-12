@@ -24,9 +24,6 @@
       tab-width 4
       inhibit-startup-screen 't)
 
-;; Coding system
-(set-default-coding-systems 'utf-8)
-
 ;; Font
 (set-face-attribute 'default nil
                     :font "JetBrains Mono"

@@ -9,11 +9,10 @@
      "4f1e4cadfd4f998cc23338246bae383a0d3a99a5edea9bcf26922ef054671299"
      default))
  '(helm-minibuffer-history-key "M-p")
- '(package-selected-packages
-   '(ayu-theme clang-format cmake-mode company consult dap-mode
-	       evil-collection evil-commentary evil-leader flycheck
-	       go-mode goflymake helm-lsp helm-xref magit mood-line
-	       orderless projectile vertico yasnippet zig-mode))
+ '(package-selected-packages nil)
+ '(package-vc-selected-packages
+   '((cmake-integration :url
+			"https://github.com/darcamo/cmake-integration.git")))
  '(send-mail-function 'mailclient-send-it))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
