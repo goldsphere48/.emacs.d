@@ -13,3 +13,4 @@
 (require 'golds-go)
 (require 'golds-org)
 (require 'golds-platform)
+(require 'golds-theme)

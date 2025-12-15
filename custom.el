@@ -4,6 +4,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes '(ayu-grey))
  '(custom-safe-themes
    '("bb8587d7e8ba2a39fcd293498140598188c7bd0c8be0360cca36f08c2b7bf5d9"
      "4f1e4cadfd4f998cc23338246bae383a0d3a99a5edea9bcf26922ef054671299"
