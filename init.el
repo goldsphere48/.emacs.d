@@ -10,7 +10,6 @@
 (require 'golds-cc-mode)
 (require 'golds-evil)
 (require 'golds-ide)
-(require 'golds-go)
 (require 'golds-org)
 (require 'golds-platform)
 (require 'golds-theme)
