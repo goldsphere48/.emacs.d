@@ -4,7 +4,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes '(doom-nova))
  '(custom-safe-themes
    '("d97ac0baa0b67be4f7523795621ea5096939a47e8b46378f79e78846e0e4ad3d"
      "3613617b9953c22fe46ef2b593a2e5bc79ef3cc88770602e7e569bbd71de113b"
@@ -27,14 +26,12 @@
      "bb8587d7e8ba2a39fcd293498140598188c7bd0c8be0360cca36f08c2b7bf5d9"
      "4f1e4cadfd4f998cc23338246bae383a0d3a99a5edea9bcf26922ef054671299"
      default))
- '(helm-minibuffer-history-key "M-p")
  '(package-selected-packages
-   '(ayu-theme clang-format cmake-integration cmake-mode company consult
-	       dap-mode dape doom-themes evil-collection
-	       evil-commentary evil-leader flycheck go-mode
-	       gruvbox-theme helm-lsp helm-xref ligature magit
-	       mood-line multiple-cursors orderless projectile vertico
-	       yasnippet zig-mode))
+   '(clang-format cmake-integration cmake-mode company consult
+		  dape doom-themes flycheck go-mode
+		  ligature magit
+		  mood-line multiple-cursors orderless projectile vertico
+		  yasnippet zig-mode))
  '(package-vc-selected-packages
    '((cmake-integration :url
 			"https://github.com/darcamo/cmake-integration.git")))

@@ -14,7 +14,7 @@
 
 (use-package consult
   :ensure t
-  :bind (("M-s M-g" . consult-grep)
+  :bind (("M-s M-g" . consult-git-grep)
          ("M-s M-f" . consult-find)
          ("M-s M-o" . consult-outline)
          ("M-s M-l" . consult-line)

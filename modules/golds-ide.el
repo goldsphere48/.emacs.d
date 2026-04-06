@@ -1,10 +1,9 @@
 ;; -*- lexical-binding: t; -*-
-(setq package-selected-packages '(lsp-mode yasnippet lsp-treemacs helm-lsp
-    projectile hydra flycheck company avy which-key helm-xref dap-mode multiple-cursors))
-
-(when (cl-find-if-not #'package-installed-p package-selected-packages)
-  (package-refresh-contents)
-  (mapc #'package-install package-selected-packages))
+(dolist (pkg '(lsp-mode yasnippet lsp-treemacs projectile
+               flycheck company avy which-key dap-mode multiple-cursors))
+  (unless (package-installed-p pkg)
+    (package-refresh-contents)
+    (package-install pkg)))
 
 (add-hook 'c-mode-hook 'lsp)
 (add-hook 'c++-mode-hook 'lsp)
@@ -14,7 +13,10 @@
       treemacs-space-between-root-nodes nil
       company-idle-delay 0.0
       company-minimum-prefix-length 1
-      lsp-idle-delay 0.1)  ;; clangd is fast
+      lsp-idle-delay 0.1)
+
+(add-hook 'emacs-startup-hook
+          (lambda () (setq gc-cons-threshold (* 2 1024 1024))))
 
 (with-eval-after-load 'lsp-mode
   (add-hook 'lsp-mode-hook #'lsp-enable-which-key-integration)
@@ -71,7 +73,6 @@
   :custom
   (dape-breakpoint-global-mode +1)
 
-  (dape-buffer-window-arrangement 'right)
   (dape-buffer-window-arrangement 'gud)
   (dape-info-hide-mode-line nil)
 

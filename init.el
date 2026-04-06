@@ -8,7 +8,6 @@
 (require 'golds-settings)
 (require 'golds-core-packages)
 (require 'golds-cc-mode)
-(require 'golds-evil)
 (require 'golds-ide)
 (require 'golds-org)
 (require 'golds-platform)

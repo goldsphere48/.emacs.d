@@ -8,7 +8,6 @@
 
 ;; Basic settings
 (setq ring-bell-function 'ignore
-      scroll-conservatively 10000
       make-backup-files nil
       create-lockfiles nil
       mouse-wheel-scroll-amount '(1 ((shift) . 1))
@@ -17,21 +16,8 @@
       scroll-margin 5
       scroll-step 1
       scroll-conservatively 10000
-      scroll-step 1
-      make-backup-files nil
-      backup-inhibited nil
-      create-lockfiles nil
       tab-width 4
       inhibit-startup-screen 't)
-
-;; Font
-(set-face-attribute 'default nil
-                    :font "JetBrains Mono"
-                    :weight 'normal
-                    :height 110)
-
-;; Theme
-(use-package ayu-theme)
 
 ;; Mood Line
 (use-package mood-line
