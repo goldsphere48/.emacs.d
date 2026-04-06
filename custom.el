@@ -5,7 +5,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("d97ac0baa0b67be4f7523795621ea5096939a47e8b46378f79e78846e0e4ad3d"
+   '("a08b3c153baa2e328536c991e3e44ab7db3387e0220be9994931d4572dacf76e"
+     "d97ac0baa0b67be4f7523795621ea5096939a47e8b46378f79e78846e0e4ad3d"
      "3613617b9953c22fe46ef2b593a2e5bc79ef3cc88770602e7e569bbd71de113b"
      "87fa3605a6501f9b90d337ed4d832213155e3a2e36a512984f83e847102a42f4"
      "42a6583a45e0f413e3197907aa5acca3293ef33b4d3b388f54fa44435a494739"
@@ -27,9 +28,6 @@
      "4f1e4cadfd4f998cc23338246bae383a0d3a99a5edea9bcf26922ef054671299"
      default))
  '(package-selected-packages nil)
- '(package-vc-selected-packages
-   '((cmake-integration :url
-			"https://github.com/darcamo/cmake-integration.git")))
  '(send-mail-function 'mailclient-send-it))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

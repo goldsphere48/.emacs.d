@@ -1,13 +1,14 @@
 ;; -*- lexical-binding: t; -*-
 ;; Disable annoying modes
 
+(use-package naysayer-theme
+  :vc (:url "https://github.com/nickav/naysayer-theme.el"
+            :rev :newest))
+
 (use-package doom-themes
-  :ensure t
-  :config
-  (load-theme 'doom-ayu-mirage t)
-  ;;(set-frame-parameter nil 'alpha-background 85)
-  ;;(add-to-list 'default-frame-alist '(alpha-background . 85))
-  )
+  :ensure t)
+
+(load-theme 'naysayer t)
 
 
 (set-face-attribute 'default nil :family "JetBrains Mono" :height 110)
