@@ -7,7 +7,10 @@
 (global-display-line-numbers-mode t)
 
 ;; Basic settings
-(setq ring-bell-function 'ignore
+(setq ls-lisp-dirs-first t
+      ls-lisp-ignore-case t
+      ls-lisp-UCA-like-collation nil
+      ring-bell-function 'ignore
       make-backup-files nil
       create-lockfiles nil
       mouse-wheel-scroll-amount '(1 ((shift) . 1))

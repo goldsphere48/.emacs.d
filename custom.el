@@ -26,12 +26,7 @@
      "bb8587d7e8ba2a39fcd293498140598188c7bd0c8be0360cca36f08c2b7bf5d9"
      "4f1e4cadfd4f998cc23338246bae383a0d3a99a5edea9bcf26922ef054671299"
      default))
- '(package-selected-packages
-   '(clang-format cmake-integration cmake-mode company consult
-		  dape doom-themes flycheck go-mode
-		  ligature magit
-		  mood-line multiple-cursors orderless projectile vertico
-		  yasnippet zig-mode))
+ '(package-selected-packages nil)
  '(package-vc-selected-packages
    '((cmake-integration :url
 			"https://github.com/darcamo/cmake-integration.git")))
