@@ -399,3 +399,21 @@ history
 debug-adapters/
 projects
 dape-breakpoints
+
+# Emacs runtime / session state
+current-theme.el
+recentf
+ido.last
+org-persist/
+.lsp-session-v1
+.mc-lists.el
+auto-save-list/
+bookmarks
+places
+.cache/
+eln-cache/
+network-security.data
+tramp
+url/
+request/
+.claude/

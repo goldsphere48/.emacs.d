@@ -19,22 +19,11 @@
       scroll-margin 5
       scroll-step 1
       scroll-conservatively 10000
-      tab-width 4
-      indent-tabs-mode nil
-      c-basic-offset 4
       inhibit-startup-screen 't)
 
-;; Mood Line
-(use-package mood-line
-
-  ;; Enable mood-line
-  :config
-  (mood-line-mode)
-  (setq mood-line-format mood-line-format-default-extended)
-
-  ;; Use pretty Fira Code-compatible glyphs
-  :custom
-  (mood-line-glyph-alist mood-line-glyphs-fira-code))
+;; Indentation defaults — must be setq-default since these are buffer-local
+(setq-default tab-width 4
+              indent-tabs-mode nil)
 
 (electric-pair-mode)
 (electric-quote-mode)

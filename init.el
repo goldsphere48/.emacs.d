@@ -7,6 +7,6 @@
 (require 'golds-package)
 (require 'golds-settings)
 (require 'golds-core-packages)
-(require 'golds-org)
+(require 'golds-coding)
 (require 'golds-platform)
 (require 'golds-theme)
