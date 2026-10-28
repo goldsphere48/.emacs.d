@@ -2,8 +2,7 @@
 (use-package vertico
   :ensure t
   :init
-  (vertico-mode)
-  (add-hook 'rfn-eshadow-update-overlay-hook #'vertico-directory-tidy))
+  (vertico-mode))
 
 (use-package vertico-directory
   :after vertico

@@ -14,7 +14,7 @@
 
 (use-package lsp-mode
   :init
-  (setq lsp-keymap-prefix "C-c l")
+  (setq lsp-keymap-prefix "C-c L")
   (setq lsp-headerline-breadcrumb-enable nil)
   (setq lsp-enable-on-type-formatting nil)
   :commands lsp)

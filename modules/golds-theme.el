@@ -45,8 +45,6 @@
   :ensure t
   :hook (dired-mode . nerd-icons-dired-mode))
 
-(provide 'golds-theme)
-
 ;; Mood Line
 (use-package mood-line
   :config
@@ -54,3 +52,5 @@
   (setq mood-line-format mood-line-format-default-extended)
   :custom
   (mood-line-glyph-alist mood-line-glyphs-fira-code))
+
+(provide 'golds-theme)
