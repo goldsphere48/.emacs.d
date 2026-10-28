@@ -19,6 +19,9 @@
       scroll-margin 5
       scroll-step 1
       scroll-conservatively 10000
+      use-short-answers t
+      isearch-lazy-count t
+      show-paren-context-when-offscreen 'overlay
       inhibit-startup-screen 't)
 
 ;; Indentation defaults — must be setq-default since these are buffer-local
@@ -27,5 +30,11 @@
 
 (electric-pair-mode)
 (electric-quote-mode)
+(recentf-mode 1)      
+(save-place-mode 1)
+(global-auto-revert-mode 1)
+(repeat-mode 1)
+(pixel-scroll-precision-mode 1)
+(global-hl-line-mode 1)
 
 (provide 'golds-settings)

@@ -31,6 +31,23 @@
   :custom
   (consult-async-min-input 2))
 
+(use-package embark
+  :ensure t
+  :bind (("C-." . embark-act)
+         :map minibuffer-local-map
+         ("C-c C-o" . embark-export)))
+
+(use-package embark-consult
+  :ensure t
+  :after (embark consult))
+
+(use-package wgrep
+  :ensure t)
+
+(use-package avy
+  :ensure t
+  :bind ("C-;" . avy-goto-char-timer))
+
 (use-package savehist
   :ensure t
   :init (savehist-mode))
