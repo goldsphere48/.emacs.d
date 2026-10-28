@@ -5,7 +5,12 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("b5fd9c7429d52190235f2383e47d340d7ff769f141cd8f9e7a4629a81abc6b19"
+   '("9b9d7a851a8e26f294e778e02c8df25c8a3b15170e6f9fd6965ac5f2544ef2a9"
+     "e14289199861a5db890065fdc5f3d3c22c5bac607e0dbce7f35ce60e6b55fc52"
+     "b7a09eb77a1e9b98cafba8ef1bd58871f91958538f6671b22976ea38c2580755"
+     "22a0d47fe2e6159e2f15449fcb90bbf2fe1940b185ff143995cc604ead1ea171"
+     "7de64ff2bb2f94d7679a7e9019e23c3bf1a6a04ba54341c36e7cf2d2e56e2bcc"
+     "b5fd9c7429d52190235f2383e47d340d7ff769f141cd8f9e7a4629a81abc6b19"
      "0325a6b5eea7e5febae709dab35ec8648908af12cf2d2b569bedc8da0a3a81c1"
      "a08b3c153baa2e328536c991e3e44ab7db3387e0220be9994931d4572dacf76e"
      "d97ac0baa0b67be4f7523795621ea5096939a47e8b46378f79e78846e0e4ad3d"
@@ -30,11 +35,10 @@
      "4f1e4cadfd4f998cc23338246bae383a0d3a99a5edea9bcf26922ef054671299"
      default))
  '(package-selected-packages
-   '(breadcrumb clang-format cmake-mode
-                company consult doom-themes
-                ligature mood-line multiple-cursors
-                naysayer-theme nerd-icons-dired orderless projectile
-                vertico yasnippet))
+   '(breadcrumb clang-format cmake-mode company consult doom-themes
+                ligature mood-line multiple-cursors naysayer-theme
+                nerd-icons-dired orderless projectile vertico
+                yasnippet))
  '(send-mail-function 'mailclient-send-it))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

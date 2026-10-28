@@ -5,6 +5,8 @@
 
   (setq default-process-coding-system '(utf-8 . utf-8))
   (setq locale-coding-system 'utf-8)
+  (add-to-list 'exec-path "C:/msys64/usr/bin")
+  (add-to-list 'exec-path "C:/msys64/ucrt64/bin")
 
   (setq process-coding-system-alist
         '(("cmdproxy" . (cp1251 . cp1251))
